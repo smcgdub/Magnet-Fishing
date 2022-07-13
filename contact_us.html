@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Magnet Fishing</title>
+  <title>Contact Us</title>
   <!-- Bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -32,7 +32,7 @@
       </button>
       <div class="collapse navbar-collapse animate__animated animate__flipInX" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link ms-auto" aria-current="page" href="#">Home</a>
+          <a class="nav-link ms-auto" aria-current="page" href="index.html">Home</a>
           <a class="nav-link ms-auto" href="about.html">About</a>
           <a class="nav-link ms-auto" href="#">Gallery</a>
           <a class="nav-link ms-auto" href="news.html">News</a>
@@ -59,7 +59,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#">F.A.Q</a></li>
               <li><a class="dropdown-item" href="#">Terms & Conditions</a></li>
-              <li><a class="dropdown-item" href="contact_us.html">Contact Us</a></li>
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
             </ul>
           </li>
           <a class="nav-link ms-auto" href="subscribe.html">Subscribe</a>
@@ -68,28 +68,42 @@
     </div>
   </nav>
 
-  <section id="homepage_bg_image">
-    <div id="search_content_div" class="w-100">
-      <div class="container my-auto animate__animated animate__rotateInDownLeft">
-        <div class="row">
-          <div class="col-12 homepage_search_col">
-            <h1 class="text-white text-center mb-3">Welcome To Magnet Fishing</h1>
-            <!-- <h4 class="text-white">Go Magnet Fishing</h4> -->
-            <!-- Search Form -->
-            <form>
-              <div class="mb-3">
-                <label for="magnet_search_input" class="form-label text-white">Magnet Search</label>
-                <input type="text" class="form-control rounded-0 fs-4" id="magnet_search_input"
-                  aria-describedby="formHelp">
-                <p id="formHelp" class="form-text text-white">- Type in a British place name, postcode or co-ordinate
-                  -</p>
-              </div>
-              <button type="submit" class="btn generic_red_buttons rounded-0">Go Fishing</button>
-            </form>
-          </div>
+  <section id="contact_us_bg_image">
+    <!-- <div id="search_content_div" class="w-100"> -->
+    <div class="container my-auto animate__animated animate__rotateInDownLeft">
+      <div class="row">
+        <div class="col-12 contact_us_col">
+          <h1 class="text-white text-center mb-3">- Contact Magnet Fishing -</h1>
+          <!-- Contact Us Form -->
+          <form action="https://formsubmit.co/steve@alien911.com" method="POST">
+            <!-- New email notification internal use only-->
+            <input type="hidden" name="_subject" value="New email from Magnet Fishing">
+            <!-- Name -->
+            <div class="mb-3">
+              <label for="contact_us_name" class="form-label text-white h5" spellcheck="true">- Your Name -</label>
+              <input type="text" name="contact_us_name" class="form-control rounded-0" id="contact_us_name" required>
+            </div>
+            <!-- Email -->
+            <div class="mb-3">
+              <label for="contact_us_email" class="form-label text-white h5">- Your E-mail -</label>
+              <input type="email" name="contact_us_email" class="form-control rounded-0" id="contact_us_email" required>
+            </div>
+            <!-- Message -->
+            <div class="mb-3">
+              <label for="contact_us_message" class="form-label text-white h5">- Your Message -</label>
+              <textarea class="form-control textarea rounded-0" id="contact_us_message" name="contact_us_message"
+                rows="4" minlength="5" maxlength="550" data-length="550" spellcheck="true" required=""></textarea>
+            </div>
+            <button id="contact_us_send_button" type="submit" class="btn generic_red_buttons rounded-0">Send
+              Message</button>
+            <!-- Redirect to message sent page -->
+            <input type="hidden" name="_next" value="">
+          </form>
+          </form>
         </div>
       </div>
     </div>
+    <!-- </div> -->
   </section>
 
   <hr class="mb-0">
@@ -182,12 +196,8 @@
           </p>
         </div>
       </div>
-
-
     </div>
   </footer>
-
-
 
   <!-- Bootstrap JS CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
