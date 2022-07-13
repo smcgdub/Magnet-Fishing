@@ -10,6 +10,16 @@ body {
   color: #595959;
 }
 
+.generic_red_buttons {
+  background-color: #cd2653;
+  color: #fff;
+}
+
+.generic_red_buttons:hover {
+  background-color: #595959;
+  color: #fff;
+}
+
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
@@ -35,6 +45,12 @@ button.navbar-toggler {
   height: 100vh;
 }
 
+#search_content_div {
+  /* max-height: calc(100vh - 86px) !important; */
+  /* padding-bottom: 25% !important; */
+  padding-top: 86px;
+}
+
 /* Footer */
 .footer_link_stephens_portfolio {
   color: #595959;
@@ -43,3 +59,8 @@ button.navbar-toggler {
 .footer_link_stephens_portfolio:hover {
   color: #595959;
 }
+
+li {
+  list-style: none;
+}
+
