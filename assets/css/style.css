@@ -11,3 +11,8 @@ body {
 
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
+/* Navbar */
+.nav-link {
+  color: #cd2653;
+}
