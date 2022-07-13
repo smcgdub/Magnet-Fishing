@@ -40,9 +40,11 @@
               Resources
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Best place for Magnet Fishing</a></li>
+              <li><a class="dropdown-item" href="#">Using Archi database</a></li>
+              <li><a class="dropdown-item" href="#">Using old maps</a></li>
+              <li><a class="dropdown-item" href="#">Best magnets to use</a></li>
+              <li><a class="dropdown-item" href="#">Fishing tips and techniques</a></li>
             </ul>
           </li>
           <!-- Dropdown Menu More-->
@@ -63,30 +65,38 @@
     </div>
   </nav>
 
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+    aria-controls="staticBackdrop">
+    Toggle static offcanvas
+  </button>
+
+
+
   <section id="homepage_bg_image">
-    <div id="search_content_div">
+    <div id="search_content_div" class="w-100">
       <div class="container my-auto">
         <div class="row">
-          <div class="col">
-            <h1 class="text-white text-center">Magnet Fish</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellendus voluptas inventore maiores
-              vero
-              consequatur minus ipsa nesciunt. Pariatur porro temporibus, magni, maiores, expedita dolorem praesentium
-              nesciunt esse distinctio nostrum explicabo sapiente consequuntur. Voluptas vitae necessitatibus debitis
-              placeat, libero enim rerum ad asperiores culpa soluta sunt, repellendus quod eveniet unde incidunt
-              assumenda alias in. Nam quia fugit tenetur molestias magnam quisquam, soluta aliquid quidem suscipit
-              nesciunt minus
-              dolores harum. Tempora ipsa alias recusandae debitis dolorem officia ducimus consectetur dicta
-              perspiciatis eum quo, quos dolorum, minus assumenda? Modi atque fugiat, maxime perferendis qui aut error!
-              Qui, optio.
-              Perferendis recusandae earum architecto.</p>
+          <div class="col-12 homepage_search_col">
+            <h1 class="text-white text-center mb-3">Welcome To Magnet Fishing</h1>
+            <!-- <h4 class="text-white">Go Magnet Fishing</h4> -->
+            <!-- Search Form -->
+            <form>
+              <div class="mb-3">
+                <label for="magnet_search_input" class="form-label text-white">Magnet Search</label>
+                <input type="text" class="form-control rounded-0 fs-4" id="magnet_search_input"
+                  aria-describedby="formHelp">
+                <p id="formHelp" class="form-text text-white">- Type in a British place name, postcode or co-ordinate
+                  -</p>
+              </div>
+              <button type="submit" class="btn generic_red_buttons rounded-0">Go Fishing</button>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <hr>
+  <hr class="mb-0">
 
   <!-- Footer -->
   <footer class="footer py-5">

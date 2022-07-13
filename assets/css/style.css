@@ -37,6 +37,10 @@ button.navbar-toggler {
   max-height: 3em;
 }
 
+.navbar-brand {
+  color: #595959;
+}
+
 /* Homepage BG Image */
 #homepage_bg_image {
   background-image: url(/assets/images/homepage_bg_image.jpg);
@@ -46,10 +50,8 @@ button.navbar-toggler {
   height: 100vh;
 }
 
-#search_content_div {
-  /* max-height: calc(100vh - 86px) !important; */
-  /* padding-bottom: 25% !important; */
-  padding-top: 86px;
+.homepage_search_col {
+  padding-top: calc(50vh - 86px);
 }
 
 /* Footer */

@@ -20,33 +20,71 @@
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
       <a class="navbar-brand" href="#">Magnet Fishing</a>
+
+      <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+        aria-controls="staticBackdrop">
+        Toggle static offcanvas
+      </button> -->
+
       <!-- Toggle Button -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+        aria-controls="staticBackdrop" aria-expanded="false" aria-label="Toggle navigation">
         <!-- Ellipsis dots -->
         <i class="fa-solid fa-ellipsis"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link ms-auto" aria-current="page" href="#">About</a>
-          <a class="nav-link ms-auto" href="#">Gallery</a>
-          <a class="nav-link ms-auto" href="#">Pricing</a>
-          <!-- Dropdown Menu -->
-          <li class="nav-item dropdown ms-auto">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Resources
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
+
+      <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+        aria-labelledby="staticBackdropLabel">
+        <!-- Off Canvas Header -->
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="staticBackdropLabel">Magnet Fishing</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <!-- Off Canvas Body -->
+        <div class="offcanvas-body">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="news.html">News</a>
+            <!-- Dropdown Menu Resources-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Resources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Best place for Magnet Fishing</a></li>
+                <li><a class="dropdown-item" href="#">Using Archi database</a></li>
+                <li><a class="dropdown-item" href="#">Using old maps</a></li>
+                <li><a class="dropdown-item" href="#">Best magnets to use</a></li>
+                <li><a class="dropdown-item" href="#">Fishing tips and techniques</a></li>
+              </ul>
+            </li>
+            <!-- Dropdown Menu More-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">F.A.Q</a></li>
+                <li><a class="dropdown-item" href="#">Terms & Conditions</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              </ul>
+            </li>
+            <a class="nav-link" href="subscribe.html">Subscribe</a>
+          </div>
         </div>
       </div>
+
+
     </div>
   </nav>
+
+
+
+
 
   <section id="about_us">
 
