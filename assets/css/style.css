@@ -24,6 +24,10 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
 /* Navbar */
+.navbar {
+  padding: 0px;
+}
+
 .nav-link, .dropdown-item {
   color: #cd2653;
   font-size: 1.2em;
@@ -51,7 +55,7 @@ button.navbar-toggler {
 }
 
 .homepage_search_col {
-  padding-top: calc(50vh - 86px);
+  padding-top: calc(45vh - 86px);
 }
 
 /* Footer */
