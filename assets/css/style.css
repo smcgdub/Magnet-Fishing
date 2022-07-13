@@ -67,3 +67,13 @@ li {
   list-style: none;
 }
 
+.social_media_icons {
+  font-size: 3em;
+  color: #595959;
+}
+
+.social_media_icons:hover {
+  font-size: 3em;
+  color: #cd2653;
+}
+
