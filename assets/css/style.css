@@ -7,12 +7,37 @@
 
 body {
   font-family: 'Ibarra Real Nova', serif;
+  color: #595959;
 }
 
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
 /* Navbar */
-.nav-link {
+.nav-link, .dropdown-item {
   color: #cd2653;
+}
+
+button.navbar-toggler {
+  border: none !important;
+}
+
+/* Homepage BG Image */
+#homepage_bg_image {
+  background-image: url('assets/images/duck.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 10px solid red;
+  height: 100vh;
+}
+
+
+/* Footer */
+.footer_link_stephens_portfolio {
+  color: #595959;
+}
+
+.footer_link_stephens_portfolio:hover {
+  color: #595959;
 }
