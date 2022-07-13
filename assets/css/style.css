@@ -46,7 +46,7 @@ button.navbar-toggler {
 }
 
 .animate__animated.animate__flipInX {
-  --animate-duration: 2s;
+  --animate-duration: 3s;
 }
 
 /* Homepage BG Image */
@@ -62,6 +62,9 @@ button.navbar-toggler {
   padding-top: calc(45vh - 86px);
 }
 
+.animate__animated.animate__rotateInDownLeft {
+  --animate-duration: 2s;
+}
 /* Footer */
 .footer_link_stephens_portfolio {
   color: #595959;
