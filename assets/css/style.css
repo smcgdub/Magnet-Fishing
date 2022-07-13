@@ -22,6 +22,10 @@ button.navbar-toggler {
   border: none !important;
 }
 
+#archie_dog {
+  max-height: 3em;
+}
+
 /* Homepage BG Image */
 #homepage_bg_image {
   background-image: url(/assets/images/homepage_bg_image.jpg);
