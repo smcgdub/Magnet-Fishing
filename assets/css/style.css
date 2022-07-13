@@ -24,14 +24,12 @@ button.navbar-toggler {
 
 /* Homepage BG Image */
 #homepage_bg_image {
-  background-image: url('assets/images/duck.jpg');
+  background-image: url(/assets/images/homepage_bg_image.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 10px solid red;
   height: 100vh;
 }
-
 
 /* Footer */
 .footer_link_stephens_portfolio {
