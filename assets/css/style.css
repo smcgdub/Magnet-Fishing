@@ -137,6 +137,22 @@ button.navbar-toggler {
   color: #595959;
 }
 
+/* F.A.Q */
+
+#faq_bg_image {
+  background-image: url(/assets/images/faq_bg_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.faq_col {
+  padding-top: calc(40vh - 86px);
+}
+
+/* Terms And Conditions */
+
 /* Contact Us */
 #contact_us_bg_image {
   background-image: url(/assets/images/contact_us_bg_image.jpg);
