@@ -49,6 +49,10 @@ button.navbar-toggler {
   --animate-duration: 3s;
 }
 
+.navbar {
+  opacity: 1;
+}
+
 /* Homepage BG Image */
 #homepage_bg_image {
   background-image: url(/assets/images/homepage_bg_image.jpg);
@@ -64,6 +68,19 @@ button.navbar-toggler {
 
 .animate__animated.animate__rotateInDownLeft {
   --animate-duration: 2s;
+}
+
+/* About Us */
+#about_us_bg_image {
+  background-image: url(/assets/images/about_us_bg_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.about_us_col {
+  padding-top: calc(30vh - 86px);
 }
 
 /* Contact Us */

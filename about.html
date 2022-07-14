@@ -11,6 +11,8 @@
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <!-- Font Awesome CDN -->
   <script src="https://kit.fontawesome.com/debc4afe80.js" crossorigin="anonymous"></script>
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Internal CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -19,7 +21,9 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Magnet Fishing</a>
+      <a class="navbar-brand animate__animated animate__flipInX" href="index.html"><img id="archie_dog"
+          src="/assets/images/archi_dog.jpg" alt="" class="img-fluid">
+        Magnet Fishing</a></a>
 
       <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
         aria-controls="staticBackdrop">
@@ -42,9 +46,9 @@
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <!-- Off Canvas Body -->
-        <div class="offcanvas-body">
+        <div class="offcanvas-body animate__animated animate__flipInX">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
             <a class="nav-link" href="#">About</a>
             <a class="nav-link" href="#">Gallery</a>
             <a class="nav-link" href="news.html">News</a>
@@ -78,18 +82,133 @@
           </div>
         </div>
       </div>
-
-
     </div>
   </nav>
 
 
-
-
-
-  <section id="about_us">
-
+  <section id="about_us_bg_image">
+    <div id="about_us_content_div" class="w-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 about_us_col">
+            <h1 class="text-white text-center mb-3">Welcome To Magnet Fishing</h1>
+            <p class="text-white fs-5">
+              Welcome to ARCHI Magnet Fishing with access to ARCHI's superior map database and knowledge this site is a
+              trusted source for all from the novice to the most experienced Magnet Fisher, there is something here for
+              everyone!
+            </p>
+            <p class="text-white fs-5">
+              Here at ARCHI Magnet Fishing UK we provide you, our fellow Magnet Fishers the answers to all Magnet
+              Fishing questions you may have, alongside a comprehensive map database for the best Magnet Fishing
+              locations. If you have not done so already, try a search of our database now and see why so many people
+              have used ARCHI for years to seek out their next adventure on land and why they are now doing so on water.
+            </p>
+            <p class="text-white fs-5">
+              Here at ARCHI we offer the Magnet Fishing community one place for all Magnet Fishing needs – a
+              comprehensive guide and a database which offers thousands of Magnet Fishing locations. So why not start
+              today? There are adventures just waiting to be begun, all it takes is a search of the ARCHI Magnet Fishing
+              database.
+            </p>
+            <p class="text-white fs-5">
+              You will see see why so many people have used ARCHI for years to seek out their next adventure on land and
+              why they are now doing so on water.
+            </p>
+            <p class="text-white fs-5">
+              Happy Magnet Fishing!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+
+  <!-- Footer -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Navigate Col 1 -->
+        <div class="col-6 col-md-3">
+          <h5>Navigate</h5>
+          <ul class="flex-column ps-0">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link mb-2">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link mb-2">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link mb-2">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link mb-2">News</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Navigate Col 2 -->
+        <div class="col-6 col-md-3">
+          <h5>Navigate</h5>
+          <ul class="flex-column ps-0">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link mb-2">F.A.Q</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link mb-2">Terms & Conditions</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link mb-2">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link mb-2">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Subscribe to newsletter -->
+        <div class="col-md-5 offset-md-1">
+          <h5 class="text-start">Subscribe to our newsletter</h5>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label mb-0">Email address</label>
+              <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp"
+                required>
+              <div id="emailHelp" class="form-text text-start mt-0">We'll never share your email with anyone else.</div>
+            </div>
+            <!-- Submit button -->
+            <button type="submit" class="btn rounded-0 generic_red_buttons">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <!-- Horizontal line -->
+      <hr>
+      <div class="row">
+        <!-- Copyright & credit -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <p class="text-center mb-0 text-sm-center text-md-center text-lg-start">- &copy; Copyright 2022 Magnet Fishing
+            | All rights
+            reserved -</p>
+          <p class="text-center mb-1 text-sm-center text-md-center text-lg-start">- Website designed by <a
+              href="https://stephens-portfolio.com/" class="text-decoration-none footer_link_stephens_portfolio">Stephen
+              Mc Govern</a> -
+          </p>
+        </div>
+        <!-- Social media icons -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <p class="text-center text-sm-center text-md-center text-lg-end mb-0">
+            <!-- Facebook Logo -->
+            <a href="" target="_blank" class="text-decoration-none"><i
+                class="fa-brands fa-facebook-square social_media_icons"></i>
+            </a>
+            <!-- Twitter -->
+            <a href="" class="text-decoration-none"><i class="fa-brands fa-twitter social_media_icons px-3"></i>
+            </a>
+            <!-- Instagram -->
+            <a href="" class="text-decoration-none"><i class="fa-brands fa-instagram-square social_media_icons"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <!-- Bootstrap JS CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
