@@ -83,6 +83,10 @@ button.navbar-toggler {
   padding-top: calc(30vh - 86px);
 }
 
+.animate__animated.animate__fadeIn {
+  --animate-duration: 3s;
+}
+
 /* Contact Us */
 #contact_us_bg_image {
   background-image: url(/assets/images/contact_us_bg_image.jpg);
