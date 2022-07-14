@@ -87,6 +87,11 @@ button.navbar-toggler {
   --animate-duration: 3s;
 }
 
+/* Gallery */
+/* .carousel-item {
+  height: 86vh;
+} */
+
 /* Contact Us */
 #contact_us_bg_image {
   background-image: url(/assets/images/contact_us_bg_image.jpg);
