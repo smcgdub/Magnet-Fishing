@@ -169,7 +169,8 @@ button.navbar-toggler {
 
 /* Best places for magnet fishing */
 .best_places_for_magnet_fishing_col {
-  max-height: calc(100vh - 70px);
+  /* max-height: calc(100vh - 70px); */
+  max-height: 90vh;
   overflow-y: scroll !important;
   background-color: rgba(255, 255, 255, .75) !important;
   color: #595959 !important;
