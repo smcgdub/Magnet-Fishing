@@ -146,27 +146,6 @@ button.navbar-toggler {
   height: 100vh;
 }
 
-/* F.A.Q */
-#faq_bg_image {
-  background-image: url(/assets/images/faq_bg_image.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.faq_col {
-  max-height: calc(100vh - 100px) !important;
-  overflow-y: scroll !important;
-  /* background-color: rgba(255, 255, 255, .20) !important;
-  backdrop-filter: blur(10px) !important; */
-}
-
-#faq_section {
-  height: 100vh;
-  padding-top: 100px;
-}
-
 /* Best places for magnet fishing */
 .best_places_for_magnet_fishing_col {
   /* max-height: calc(100vh - 70px); */
@@ -245,7 +224,47 @@ button.navbar-toggler {
   color: #595959 !important;
 }
 
+/* Fishing Tips & Techniques */
+#fishing_tips_and_techniques_bg_image {
+  background-image: url(/assets/images/fishing_tips_and_techniques_bg_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 
+#fishing_tips_and_techniques_div {
+  height: calc(100vh - 80px);
+  padding-top: 80px;
+}
+
+.fishing_tips_and_techniques_col {
+  max-height: 90vh;
+  overflow-y: scroll !important;
+  background-color: rgba(255, 255, 255, .60) !important;
+  color: #595959 !important;
+}
+
+/* F.A.Q */
+#faq_bg_image {
+  background-image: url(/assets/images/faq_bg_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.faq_col {
+  max-height: calc(100vh - 100px) !important;
+  overflow-y: scroll !important;
+  /* background-color: rgba(255, 255, 255, .20) !important;
+  backdrop-filter: blur(10px) !important; */
+}
+
+#faq_section {
+  height: 100vh;
+  padding-top: 100px;
+}
 
 
 
