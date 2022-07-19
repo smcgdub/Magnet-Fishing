@@ -148,7 +148,28 @@ button.navbar-toggler {
 }
 
 .faq_col {
-  padding-top: calc(40vh - 86px);
+  max-height: calc(100vh - 100px) !important;
+  overflow-y: scroll !important;
+  /* background-color: rgba(255, 255, 255, .20) !important;
+  backdrop-filter: blur(10px) !important; */
+}
+
+#faq_section {
+  height: 100vh;
+  padding-top: 100px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cd2653;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
 }
 
 /* Terms And Conditions */
