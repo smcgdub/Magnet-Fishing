@@ -182,6 +182,27 @@ button.navbar-toggler {
   padding-top: 80px;
 }
 
+/* Using Archi Database */
+#using_archi_database_bg_image {
+  background-image: url(/assets/images/using_archi_database_bg_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#using_archi_database_div {
+  height: calc(100vh - 80px);
+  padding-top: 80px;
+}
+
+.using_archi_database_col {
+  max-height: 90vh;
+  overflow-y: scroll !important;
+  background-color: rgba(255, 255, 255, .50) !important;
+  color: #595959 !important;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
