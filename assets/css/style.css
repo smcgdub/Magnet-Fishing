@@ -172,6 +172,7 @@ button.navbar-toggler {
   max-height: calc(100vh - 70px);
   overflow-y: scroll !important;
   background-color: rgba(255, 255, 255, .75) !important;
+  color: #595959 !important;
 }
 
 #best_places_for_magnet_fishing_div {
