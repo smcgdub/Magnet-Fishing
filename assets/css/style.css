@@ -401,10 +401,16 @@ button.navbar-toggler {
   background-color: rgba(255, 255, 255, .7) !important;
   backdrop-filter: blur(10px) !important;
   height: 90vh;
-  padding-top: calc(30vh - 86px);
+  padding-top: calc(20vh - 86px);
 }
 
 /* Subscribe page media query to remove top padding on tablet and below screen sizes */
+@media screen and (max-width: 1399px) {
+  .subscribe_col {
+    padding-top: calc(10vh - 86px);
+  }
+}
+
 @media screen and (max-width: 769px) {
   .subscribe_col {
     padding-top: 0px;
@@ -444,4 +450,8 @@ li {
     padding-top: 24px !important;
     padding-bottom: 24px !important;
   }
+}
+
+.border-bottom {
+  color: #cd2653;
 }
