@@ -85,10 +85,18 @@ button.navbar-toggler {
 
 .about_us_col {
   padding-top: calc(30vh - 86px);
+  overflow-y: scroll !important;
 }
 
 .animate__animated.animate__fadeIn {
   --animate-duration: 3s;
+}
+
+/* About us page media query to remove top padding on tablet and below screen sizes */
+@media screen and (max-width: 769px) {
+  .about_us_col {
+    padding-top: 16px;
+  }
 }
 
 /* Gallery */
@@ -368,7 +376,7 @@ button.navbar-toggler {
 } */
 
 
-/* Subscribe */
+/* Subscribe Page */
 #subscribe_bg_image {
   background-image: url(/assets/images/subscribe_bg_image.jpg);
   background-size: cover;
@@ -391,6 +399,7 @@ button.navbar-toggler {
   padding-top: calc(30vh - 86px);
 }
 
+/* Subscribe page media query to remove top padding on tablet and below screen sizes */
 @media screen and (max-width: 769px) {
   .subscribe_col {
     padding-top: 0px;
