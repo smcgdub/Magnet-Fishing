@@ -152,12 +152,6 @@ button.navbar-toggler {
   padding: 20px;
 }
 
-#newsfeed {
-  /* max-height: calc(100vh - 365px) !important;
-  overflow-y: scroll !important; */
-  /* border: 2px solid red; */
-}
-
 .news_item {
   margin: 10px 0px 0px 10px;
   background-color: rgba(255, 255, 255, .70) !important;
