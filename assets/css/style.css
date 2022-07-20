@@ -279,24 +279,23 @@ button.navbar-toggler {
 
 /* F.A.Q */
 #faq_bg_image {
-  background-image: url(/assets/images/faq_bg_image.jpg);
+  background-image: url(/assets/images/faq_bg_image_darkened.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-  background:
 }
 
 .faq_col {
   max-height: calc(100vh - 100px) !important;
   overflow-y: scroll !important;
-  background-color: rgba(255, 255, 255, .20);
+  background-color: rgba(0, 0, 0, .20);
   /* backdrop-filter: blur(10px) !important; */
 }
 
 #faq_section {
-  height: 100vh;
-  padding-top: 100px;
+  max-height: 90vh;
+  padding-top: 86px;
 }
 
 .link:hover {
@@ -326,9 +325,9 @@ button.navbar-toggler {
   height: 100vh;
 }
 
-.t_and_c_col {
+/* .t_and_c_col {
   padding-top: calc(40vh - 86px);
-}
+} */
 
 /* Contact Us */
 #contact_us_bg_image {
