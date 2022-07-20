@@ -83,10 +83,24 @@ button.navbar-toggler {
   height: 100vh;
 }
 
-.about_us_col {
+/* #about_us_content_div {
+  height: 90vh;
+  padding-top: 86px;
+} */
+
+/* .about_us_col {
   padding-top: calc(30vh - 86px);
   overflow-y: scroll !important;
+} */
+
+.about_us_col {
+  max-height: calc(100vh - 100px) !important;
+  overflow-y: scroll !important;
+  backdrop-filter: blur(10px) !important;
+  height: 90vh;
+  padding-top: calc(30vh - 86px);
 }
+
 
 .animate__animated.animate__fadeIn {
   --animate-duration: 3s;
@@ -113,6 +127,11 @@ button.navbar-toggler {
   height: 100vh;
 }
 
+#news_content_div {
+  max-height: 100vh;
+  overflow-y: scroll !important;
+}
+
 .newsfeed_col {
   padding-top: calc(20vh - 86px);
 }
@@ -134,8 +153,8 @@ button.navbar-toggler {
 }
 
 #newsfeed {
-  max-height: calc(100vh - 365px) !important;
-  overflow-y: scroll !important;
+  /* max-height: calc(100vh - 365px) !important;
+  overflow-y: scroll !important; */
   /* border: 2px solid red; */
 }
 
@@ -325,8 +344,6 @@ button.navbar-toggler {
   padding-top: calc(40vh - 86px);
 }
 
-
-
 /* Photo Gallery */
 .photo-gallery {
   color:#313437;
@@ -369,12 +386,6 @@ button.navbar-toggler {
 .photo-gallery .item {
   padding-bottom:30px;
 }
-
-/* .test {
-  height: 200px;
-  width: 300px;
-} */
-
 
 /* Subscribe Page */
 #subscribe_bg_image {
@@ -431,4 +442,12 @@ li {
 .social_media_icons:hover {
   font-size: 3em;
   color: #cd2653;
+}
+
+/* Footer media query to reduce top & bottom padding on tablet and below screen sizes */
+@media screen and (max-width: 769px) {
+  .footer {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
 }
