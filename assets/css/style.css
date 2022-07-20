@@ -109,7 +109,7 @@ button.navbar-toggler {
 /* About us page media query to remove top padding on tablet and below screen sizes */
 @media screen and (max-width: 769px) {
   .about_us_col {
-    padding-top: 16px;
+    padding-top: 32px;
   }
 }
 
@@ -130,6 +130,7 @@ button.navbar-toggler {
 #news_content_div {
   max-height: 100vh;
   overflow-y: scroll !important;
+  overflow-x: hidden;
 }
 
 .newsfeed_col {
@@ -283,13 +284,14 @@ button.navbar-toggler {
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+  background:
 }
 
 .faq_col {
   max-height: calc(100vh - 100px) !important;
   overflow-y: scroll !important;
-  /* background-color: rgba(255, 255, 255, .20) !important;
-  backdrop-filter: blur(10px) !important; */
+  background-color: rgba(255, 255, 255, .20);
+  /* backdrop-filter: blur(10px) !important; */
 }
 
 #faq_section {
@@ -297,6 +299,9 @@ button.navbar-toggler {
   padding-top: 100px;
 }
 
+.link:hover {
+  color: #cd2653;
+}
 
 
 ::-webkit-scrollbar {
@@ -450,8 +455,4 @@ li {
     padding-top: 24px !important;
     padding-bottom: 24px !important;
   }
-}
-
-.border-bottom {
-  color: #cd2653;
 }
