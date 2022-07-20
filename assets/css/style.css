@@ -20,6 +20,10 @@ body {
   color: #fff;
 }
 
+.generic_red {
+  color: #cd2653
+}
+
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
@@ -313,32 +317,9 @@ button.navbar-toggler {
   padding-top: calc(40vh - 86px);
 }
 
-/* Footer */
-.footer_link_stephens_portfolio {
-  color: #cd2653;
-}
-
-.footer_link_stephens_portfolio:hover {
-  color: #595959;
-}
-
-li {
-  list-style: none;
-}
-
-.social_media_icons {
-  font-size: 3em;
-  color: #595959;
-}
-
-.social_media_icons:hover {
-  font-size: 3em;
-  color: #cd2653;
-}
 
 
-
-
+/* Photo Gallery */
 .photo-gallery {
   color:#313437;
   /* background-color:#fff; */
@@ -386,3 +367,59 @@ li {
   width: 300px;
 } */
 
+
+/* Subscribe */
+#subscribe_bg_image {
+  background-image: url(/assets/images/subscribe_bg_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#subscribe_section {
+  height: 100vh;
+  padding-top: 86px;
+}
+
+.subscribe_col {
+  max-height: calc(100vh - 100px) !important;
+  overflow-y: scroll !important;
+  background-color: rgba(255, 255, 255, .7) !important;
+  backdrop-filter: blur(10px) !important;
+  height: 90vh;
+  padding-top: calc(30vh - 86px);
+}
+
+@media screen and (max-width: 769px) {
+  .subscribe_col {
+    padding-top: 0px;
+  }
+}
+
+table {
+  color: #595959 !important;
+}
+
+/* Footer */
+.footer_link_stephens_portfolio {
+  color: #cd2653;
+}
+
+.footer_link_stephens_portfolio:hover {
+  color: #595959;
+}
+
+li {
+  list-style: none;
+}
+
+.social_media_icons {
+  font-size: 3em;
+  color: #595959;
+}
+
+.social_media_icons:hover {
+  font-size: 3em;
+  color: #cd2653;
+}

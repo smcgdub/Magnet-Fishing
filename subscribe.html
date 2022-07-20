@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <title>Terms & Conditions</title>
+  <title>Subscribe</title>
   <!-- Bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -74,21 +74,75 @@
     </div>
   </nav>
 
-  <section id="faq_bg_image">
-    <div id="faq_section">
+  <section id="subscribe_bg_image">
+    <div id="subscribe_section">
       <!-- <div id="news_content_div" class="w-100"> -->
       <div class="container my-auto animate__animated animate__fadeIn">
         <div class="row">
-          <div class="col-12 faq_col">
+          <div class="col-12 subscribe_col">
             <!-- FAQ Header -->
-            <h1 class="text-white text-center">Terms & Conditions</h1>
+            <h1 class="text-center mt-3">Subscribe</h1>
             <!-- Horizontal Line -->
-            <hr class="text-white">
+            <hr class="">
+            <h4 class=" text-decoration-underline">Choose Your Membership:</h4>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="yearly_radio_button" id="yearly_radio_button" checked>
+              <label class="form-check-label " for="yearly_radio_button">
+                Yearly Membership: £41.50 plus VAT - (58% discount vs monthly membership)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="monthly_radio_button" id="monthly_radio_button">
+              <label class="form-check-label " for="monthly_radio_button">
+                Monthly Membership: £8.25 plus VAT
+              </label>
+            </div>
+
+            <!-- Horizontal Line -->
+            <hr class="">
+
+            <!-- Subscription message -->
+            <div class="row">
+              <div class="col">
+                <h4 class="">Subscriptions are handled through PayPal:</h4>
+                <p class=" mb-0">
+                  Important note. Please be aware that you may experience a short delay (up to
+                  10 seconds) upon completion of the paypal checkout before you are directed to the ARCHI member
+                  password setup page. Once you have completed paypal's checkout please wait until you are re-directed
+                  to the ARCHI member password setup page to set your password.
+                </p>
+              </div>
+            </div>
+
+            <!-- Horizontal Line -->
+            <hr class="">
+
+            <!-- Order Summary Section -->
+            <div class="row">
+              <div class="col-12">
+                <h4 class="text-decoration-underline">Your order</h4>
+                <table class="table ">
+                  <thead>
+                    <tr>
+                      <th class="">Product</th>
+                      <th class="">Price</th>
+                      <th class="">VAT (20%)</th>
+                      <th class="">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="">
+                      <th class="">1x ARCHI UK Yearly Subscription:</th>
+                      <td class="generic_red">£41.50</td>
+                      <td class="generic_red">£8.30</td>
+                      <td class="generic_red">£49.80</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
-
-      </div>
-    </div>
   </section>
 
   <hr class="mb-0">
