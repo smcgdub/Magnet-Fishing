@@ -74,23 +74,38 @@
     </div>
   </nav>
 
+  <!-- Homepage Main Content -->
   <section id="homepage_bg_image">
     <div id="search_content_div" class="w-100">
       <div class="container my-auto animate__animated animate__rotateInDownLeft">
         <div class="row">
           <div class="col-12 homepage_search_col">
             <h1 class="text-white text-center mb-3">Welcome To Magnet Fishing</h1>
-            <!-- Search Form -->
-            <form>
-              <div class="mb-3">
-                <label for="magnet_search_input" class="form-label text-white">Magnet Search</label>
-                <input type="text" class="form-control rounded-0 fs-4" id="magnet_search_input"
-                  aria-describedby="formHelp">
-                <p id="formHelp" class="form-text text-white">- Type in a British place name, postcode or co-ordinate
-                  -</p>
+
+            <!-- My Search Form -->
+            <!-- <div class="mb-3"> -->
+            <form id="search_form" class="form">
+              <!-- Search Input -->
+              <label for="magnet_search_input" class="form-label text-white">Magnet Search</label>
+              <!-- Input search field -->
+              <input type="text" class="form-control rounded-0 fs-4" id="location_search_input" aria-describedby=""
+                value="">
+              <!-- Helper text -->
+              <p id="formHelp" class="form-text text-white">- Type in a British place name, postcode or co-ordinate
+                -</p>
+              <!-- This is a hidden password field that is necessary for the JS search function to run -->
+              <div class="form-group">
+                <input class="form-control" id="pwd" placeholder="Member Password or Leave Blank" value="" hidden />
               </div>
-              <button type="submit" class="btn generic_red_buttons rounded-0">Go Fishing</button>
+              <!-- Search Button -->
+              <button id="ufo_search_button" type="submit" class="btn generic_red_buttons rounded-0"
+                onclick="callArchiSearch()">Go Fishing
+                <i class="fas fa-search"></i>
+              </button>
             </form>
+            <!-- </div> -->
+
+
           </div>
         </div>
       </div>
