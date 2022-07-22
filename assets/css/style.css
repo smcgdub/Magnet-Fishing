@@ -488,8 +488,21 @@ li {
   }
 }
 
-
+/* Search results */
 .search_result_map_img {
   max-width: 4.5em;
   max-height: 4em;
+}
+
+thead {
+  background-color: #cd2653;
+  color: #fff;
+}
+
+.search_results_banner {
+  background-color: #cd2653;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 16px;
+  font-weight: bold;
 }
