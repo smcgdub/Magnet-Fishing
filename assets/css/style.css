@@ -1,4 +1,7 @@
 /* Global */
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;
@@ -8,6 +11,7 @@
 body {
   font-family: 'Ibarra Real Nova', serif;
   color: #595959;
+  overflow-x: hidden;
 }
 
 .generic_red_buttons {
@@ -436,6 +440,34 @@ table {
 
 li {
   list-style: none;
+}
+
+/* Back to top button css & media queries */
+#to_the_top_button {
+  border: none !important;
+  color: #cd2653 !important;
+}
+
+#to_the_top_button:hover {
+  color: #595959 !important;
+  border: none !important;
+}
+
+@media screen and (max-width: 991px) {
+  #to_the_top_button {
+    display: none;
+  }
+}
+
+#to_the_top_button_mobile {
+  color: #cd2653 !important;
+  border: none !important;
+}
+
+@media screen and (min-width: 992px) {
+  #to_the_top_button_mobile {
+    display: none;
+  }
 }
 
 .social_media_icons {
