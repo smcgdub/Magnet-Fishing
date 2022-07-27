@@ -363,8 +363,7 @@ button.navbar-toggler {
 
 /* Photo Gallery */
 .photo-gallery {
-  color:#313437;
-  /* background-color:#fff; */
+  /* background-color:#cd2653; */
   height: 100vh;
   padding-top: 86px;
   overflow-y: scroll !important;
@@ -396,12 +395,22 @@ button.navbar-toggler {
   margin-bottom:0;
 } */
 
-.photo-gallery .photos {
-  padding-bottom:20px;
+/* .photo-gallery .photos {
+  padding-bottom: 200px;
+} */
+
+/* .photo-gallery .item {
+  padding-bottom:30px;
+} */
+
+.gallery_image {
+  transition: transform .3s;
 }
 
-.photo-gallery .item {
-  padding-bottom:30px;
+.gallery_image:hover {
+  -ms-transform: scale(1.03); /* IE 9 */
+  -webkit-transform: scale(1.03); /* Safari 3-8 */
+  transform: scale(1.03); 
 }
 
 /* Subscribe Page */
@@ -551,3 +560,4 @@ thead {
 ol li a:hover {
   color: #cd2653 !important;
 }
+
