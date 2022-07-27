@@ -70,8 +70,15 @@ button.navbar-toggler {
   height: 100vh;
 }
 
+#search_content_div {
+  padding-top: calc(35vh - 86px);
+  max-height: 90vh;
+  overflow-y: scroll !important;
+}
+
 .homepage_search_col {
-  padding-top: calc(45vh - 86px);
+  /* padding-top: calc(45vh - 86px); */
+  padding-top: min(86px);
 }
 
 .animate__animated.animate__rotateInDownLeft {
@@ -365,7 +372,7 @@ button.navbar-toggler {
 .photo-gallery {
   /* background-color:#cd2653; */
   height: 100vh;
-  padding-top: 86px;
+  padding-top: 70px;
   overflow-y: scroll !important;
 }
 
