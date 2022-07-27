@@ -111,6 +111,12 @@ button.navbar-toggler {
 }
 
 /* About us page media query to remove top padding on tablet and below screen sizes */
+@media screen and (max-width: 991px) {
+  .about_us_col {
+    padding-top: 70px;
+  }
+}
+
 @media screen and (max-width: 769px) {
   .about_us_col {
     padding-top: 32px;
