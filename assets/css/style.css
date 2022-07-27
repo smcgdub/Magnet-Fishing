@@ -98,11 +98,12 @@ button.navbar-toggler {
 } */
 
 .about_us_col {
-  max-height: calc(100vh - 100px) !important;
+  max-height: calc(100vh - 10px) !important;
   overflow-y: scroll !important;
-  backdrop-filter: blur(10px) !important;
-  height: 90vh;
-  padding-top: calc(30vh - 86px);
+  /* backdrop-filter: blur(10px) !important; */
+  /* height: 90vh; */
+  padding-top: calc(40vh - 86px);
+  /* background-color: #cd2653; */
 }
 
 
@@ -113,13 +114,13 @@ button.navbar-toggler {
 /* About us page media query to remove top padding on tablet and below screen sizes */
 @media screen and (max-width: 991px) {
   .about_us_col {
-    padding-top: 70px;
+    padding-top: 200px;
   }
 }
 
 @media screen and (max-width: 769px) {
   .about_us_col {
-    padding-top: 32px;
+    padding-top: 86px;
   }
 }
 
@@ -349,7 +350,7 @@ button.navbar-toggler {
 
 #contact_us_div {
   /* height: calc(100vh - 80px); */
-  /* padding-top: 80px; */
+  padding-top: 80px;
   padding-top: calc(40vh - 86px);
 }
 
