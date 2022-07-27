@@ -418,6 +418,11 @@ button.navbar-toggler {
   padding-top: calc(20vh - 86px);
 }
 
+.subscribe_th {
+  background-color: transparent !important;
+  color: #595959;
+}
+
 /* Subscribe page media query to remove top padding on tablet and below screen sizes */
 @media screen and (max-width: 1399px) {
   .subscribe_col {
