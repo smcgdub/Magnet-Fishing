@@ -526,3 +526,10 @@ thead {
   border-radius: 2px 40px 2px 40px;
   /* padding: 20px; */
 }
+
+
+
+/* Customer Links Page */
+ol li a:hover {
+  color: #cd2653 !important;
+}
