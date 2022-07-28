@@ -6,7 +6,10 @@
 
 Magnet Fishing UK is a database of more than 200,000 British Archaeological Sites covering the whole of England, Scotland and Wales. It is regularly updated with new additions to the database every year. As so many magnet fishers love metal detecting, this database helps users find the best places to do both. 
 
-## **Table of contents** 
+<hr>
+
+<details>
+<summary><strong>Table of contents</strong></summary>
 
 ### **1. User Experience (UX)**
   * 1.1 Target audience
@@ -74,10 +77,13 @@ Magnet Fishing UK is a database of more than 200,000 British Archaeological Site
 ### **8. Disclaimer**
 
   * 8.1 Disclaimer on project 
-___
+
+</details>
+
+<hr>
 
 <details>
-<summary>1 User Experience (UX)</summary>
+<summary><strong>1. User Experience (UX)</strong></summary>
 <br>
 
 ### **1.1 Target Audience**
@@ -135,7 +141,7 @@ The bulk of the site is made up of full page background imagery. This was done i
 <hr>
 
 <details>
-<summary>2. Features</summary>
+<summary><strong>2. Features</strong></summary>
 <br>
 
 ### **2.1 The Navbar**
@@ -342,7 +348,7 @@ The subscribe page is where users can purchase a full paid membership for the si
 <hr>
 
 <details>
-<summary>3. Technologies/Languages Used</summary>
+<summary><strong>3. Technologies/Languages Used</strong></summary>
 <br>
 
 3.1 [VS Code](https://code.visualstudio.com/) - I used Visual Studio Code for all of the coding during the project<br>
@@ -364,7 +370,7 @@ The subscribe page is where users can purchase a full paid membership for the si
 <hr>
 
 <details>
-<summary>4. Testing</summary>
+<summary><strong>4. Testing</strong></summary>
 <br>
 
 * Testing information can be found in the [testing.md](testing.md) file
@@ -373,7 +379,7 @@ The subscribe page is where users can purchase a full paid membership for the si
 <hr>
 
 <details>
-<summary>5. Deployment</summary>
+<summary><strong>5. Deployment</strong></summary>
 <br>
 
 ### **5.1 Deployment**  
@@ -415,7 +421,7 @@ You can also clone the project from Github direct to your Desktop. To do this yo
 <hr>
 
 <details>
-<summary>6. Credits</summary>
+<summary><strong>6. Credits</strong></summary>
 <br>
 
 ### **6.1 Media** 
@@ -441,7 +447,7 @@ The image gallery on the site was based upon a tutorial i found on YouTube by a 
 <hr>
 
 <details>
-<summary>7. Contact Me</summary>
+<summary><strong>7. Contact Me</strong></summary>
 <br>
 
 Feel free to contact me on any of the following channels:<br>
@@ -455,7 +461,7 @@ Feel free to contact me on any of the following channels:<br>
 <hr>
 
 <details>
-<summary>8. Disclaimer</summary>
+<summary><strong>8. Disclaimer</strong></summary>
 <br>
 
 </details>
