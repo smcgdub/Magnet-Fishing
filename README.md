@@ -362,7 +362,7 @@ The subscribe page is where users can purchase a full paid membership for the si
 3.9 [Font Awesome](https://fontawesome.com/) - A library of 1,600+ free to use icons that can be customized even further with CSS<br>
 3.10 [Coolors](https://coolors.co/) - A free to use colour generator where users can browse and create beautiful color combinations.<br>
 3.11 [Lightbox](https://lokeshdhakar.com/projects/lightbox2/) - Lightbox is a free to use script used to overlay images on the current page. It's a snap to setup and works on all modern browsers.<br>
-3.12 [Balsamiq](https://balsamiq.com/wireframes/)- Balsamiq is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard. Used for producing the wire frames for this project.
+3.12 [Balsamiq](https://balsamiq.com/wireframes/)- Balsamiq is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard. Used for producing the wire frames for this project.<br>
 3.13 [Grammarly](https://www.grammarly.com/) - Grammarly is a cloud-based typing assistant that reviews spelling, grammar, punctuation, clarity, engagement, and delivery mistakes. It uses artificial intelligence to identify and search for an appropriate replacement for the error it locates.<br>
 3.14 [Form Submit](https://formsubmit.co/) - Formsubmit is a product that was developed by Devro Labs. Form submit is a free to use contact form that requires very little set up and allows users to directly message website administrators. 
 </details>
