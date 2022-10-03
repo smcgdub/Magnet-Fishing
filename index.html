@@ -97,10 +97,15 @@
                 <input class="form-control" id="pwd" placeholder="Member Password or Leave Blank" value="" hidden />
               </div>
               <!-- Search Button -->
-              <button id="ufo_search_button" type="submit" class="btn generic_red_buttons rounded-0"
+              <button id="go_fishing_search_button" type="submit" class="btn generic_red_buttons rounded-0"
                 onclick="callArchiSearch()">Go Fishing
                 <i class="fas fa-search"></i>
               </button>
+              <!-- Get current location -->
+              <button class="btn generic_red_buttons rounded-0" type="button" onclick="getCurrentLocation();">Fish My
+                Current Location</button>
+              <!--Position information will be inserted here-->
+              <div id="result" class="text-white"></div>
             </form>
           </div>
         </div>
