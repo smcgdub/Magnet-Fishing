@@ -52,3 +52,13 @@ function getCurrentLocation() {
     alert("Sorry, your browser does not support HTML5 geolocation.");
   }
 }
+
+// Load monthly subscription page
+function chooseMonthlyPlan() {
+  window.open("subscribe_m.html", "_self");
+}
+
+// Load annual subscription page
+function chooseYearlyPlan() {
+  window.open("subscribe_y.html", "_self");
+}

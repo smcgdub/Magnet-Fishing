@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Yearly Subscription</title>
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/89d5bab957.js" crossorigin="anonymous"></script>
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Internal CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand animate__animated animate__flipInX" href="index.html"><img id="archie_dog"
+          src="/assets/images/archi_dog.jpg" alt="" class="img-fluid">
+        Magnet Fishing</a>
+      <!-- Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- Ellipsis dots -->
+        <i class="fa-solid fa-ellipsis"></i>
+      </button>
+      <div class="collapse navbar-collapse animate__animated animate__flipInX" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link ms-auto" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link ms-auto" href="about.html">About</a>
+          <a class="nav-link ms-auto" href="gallery.html">Gallery</a>
+          <a class="nav-link ms-auto" href="news.html">News</a>
+          <!-- Dropdown Menu Resources-->
+          <li class="nav-item dropdown ms-auto">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkResources" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Resources
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkResources">
+              <li><a class="dropdown-item" href="best_places_for_magnet_fishing.html">Best place for Magnet Fishing</a>
+              </li>
+              <li><a class="dropdown-item" href="using_archi_database.html">Using Archi database</a></li>
+              <li><a class="dropdown-item" href="using_old_maps.html">Using old maps</a></li>
+              <li><a class="dropdown-item" href="best_magnets_to_use.html">Best magnets to use</a></li>
+              <li><a class="dropdown-item" href="fishing_tips_and_techniques.html">Fishing tips and techniques</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown Menu More-->
+          <li class="nav-item dropdown ms-auto">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkMore" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkMore">
+              <li><a class="dropdown-item" href="faq.html">F.A.Q</a></li>
+              <li><a class="dropdown-item" href="terms_and_conditions.html">Terms & Conditions</a></li>
+              <li><a class="dropdown-item" href="contact_us.html">Contact Us</a></li>
+            </ul>
+          </li>
+          <a class="nav-link ms-auto" href="subscribe.html">Subscribe</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Subscribe section -->
+  <section id="subscribe_bg_image">
+    <div id="subscribe_section">
+      <!-- <div id="news_content_div" class="w-100"> -->
+      <div class="container my-auto animate__animated animate__fadeIn">
+        <div class="row">
+          <div class="col-12 subscribe_col">
+            <!-- Subscribe Header -->
+            <h1 class="text-center mt-3">Subscribe</h1>
+            <!-- Horizontal Line -->
+            <hr class="">
+            <h4 class=" text-decoration-underline">Choose Your Membership:</h4>
+            <!-- Yearly or monthly subscription selection -->
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+              <label class="form-check-label" for="flexRadioDefault1">
+                Yearly Membership: £41.50 plus VAT - (58% discount vs monthly membership)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                onclick="chooseMonthlyPlan()">
+              <label class="form-check-label" for="flexRadioDefault2">
+                Choose monthly membership plan
+              </label>
+            </div>
+
+            <!-- Horizontal Line -->
+            <hr class="">
+
+            <!-- Subscription message -->
+            <div class="row">
+              <div class="col">
+                <h4 class="">Subscriptions are handled through PayPal:</h4>
+                <p class=" mb-0">
+                  Important note. Please be aware that you may experience a short delay (up to
+                  10 seconds) upon completion of the paypal checkout before you are directed to the ARCHI member
+                  password setup page. Once you have completed paypal's checkout please wait until you are re-directed
+                  to the ARCHI member password setup page to set your password.
+                </p>
+              </div>
+            </div>
+
+            <!-- Horizontal Line -->
+            <hr class="">
+
+            <!-- Order Summary Section -->
+            <div class="row">
+              <div class="col-12">
+                <h4 class="text-decoration-underline">Your order</h4>
+                <table class="table">
+                  <thead class="subscribe_th">
+                    <tr>
+                      <th class="">Product</th>
+                      <th class="">Price</th>
+                      <th class="">VAT (20%)</th>
+                      <th class="">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="">
+                      <th class="">1x ARCHI UK Yearly Subscription:</th>
+                      <td class="generic_red">£41.50</td>
+                      <td class="generic_red">£8.30</td>
+                      <td class="generic_red">£49.80</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p class="mb-0 generic_red"><strong>Important Notice:</strong> Please be aware that you may experience a
+                  short delay (up to 10 seconds) upon completion of the paypal checkout before you are directed to the
+                  archi member
+                  password setup page.
+                </p>
+                <p class="mb-0">Once you have completed paypal's checkout please wait until you are
+                  re-directed to the archi member password setup page to set your password.
+                </p>
+              </div>
+            </div>
+            <!-- Horizontal Line -->
+            <hr class="">
+            <!-- Auto-renewal notice -->
+            <p class="mb-2 text-decoration-underline">Subscription Auto Renewal</p>
+            <!-- Auto renewal message -->
+            <p class="fst-italic mb-2">Subscriptions to MAGNET FISHING UK and ARCHI Worldwide databases are for one
+              year and will be renewed automatically. Most ARCHI subscribers prefer this than to find their subscription
+              has expired when they are out in the field and need to use the service. However, you can simply cancel any
+              future re-subscription payments via your PayPal acount anytime before the next subscription period.
+            </p>
+            <p class="fst-italic mb-2">
+              For instructions on how to cancel your subscription please see our F.A.Q page or click: <a href="faq.html"
+                class="generic_red">here</a>
+            </p>
+          </div>
+        </div>
+  </section>
+
+  <!-- Horizontal Line -->
+  <hr class="mb-0">
+
+  <!-- Footer -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Navigate Col 1 -->
+        <div class="col-6 col-md-3">
+          <h5>Navigate</h5>
+          <ul class="flex-column ps-0">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link mb-2">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link mb-2">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link mb-2">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="news.html" class="nav-link mb-2">News</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Navigate Col 2 -->
+        <div class="col-6 col-md-3">
+          <h5>Navigate</h5>
+          <ul class="flex-column ps-0">
+            <li class="nav-item">
+              <a href="faq.html" class="nav-link mb-2">F.A.Q</a>
+            </li>
+            <li class="nav-item">
+              <a href="terms_and_conditions.html" class="nav-link mb-2">Terms & Conditions</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact_us.html" class="nav-link mb-2">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="subscribe.html" class="nav-link mb-2">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Subscribe to newsletter -->
+        <div class="col-md-5 offset-md-1">
+          <h5 class="text-start">Subscribe to our newsletter</h5>
+          <!-- Subscribe to newsletter form -->
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label mb-0">Email address</label>
+              <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp"
+                required>
+              <div id="emailHelp" class="form-text text-start mt-0">We'll never share your email with anyone else.</div>
+            </div>
+            <!-- Submit button -->
+            <button type="submit" class="btn rounded-0 generic_red_buttons">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <!-- Horizontal line -->
+      <hr>
+      <div class="row">
+        <!-- Copyright & credit -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <p class="text-center mb-0 text-sm-center text-md-center text-lg-start">
+            - &copy; Copyright 2022 Magnet Fishing | All rights reserved -
+          </p>
+          <p class="text-center mb-1 text-sm-center text-md-center text-lg-start">- Website designed by <a
+              href="https://stephens-portfolio.com/" class="text-decoration-none footer_link_stephens_portfolio"
+              target="_blank">Stephen Mc Govern</a> -
+          </p>
+        </div>
+        <!-- Social media icons -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <p class="text-center text-sm-center text-md-center text-lg-end mb-0">
+            <!-- Scroll to top button desktop -->
+            <button onclick="topFunction()" id="to_the_top_button" class="btn mb-1">Back to top <i
+                class="fa-solid fa-arrow-up"></i>
+            </button>
+            <!-- Facebook Logo -->
+            <a href="" target="_blank" class="text-decoration-none"><i
+                class="fa-brands fa-facebook-square social_media_icons"></i>
+            </a>
+            <!-- Twitter -->
+            <a href="" target="_blank" class="text-decoration-none"><i
+                class="fa-brands fa-twitter social_media_icons px-3"></i>
+            </a>
+            <!-- Instagram -->
+            <a href="" target="_blank" class="text-decoration-none"><i
+                class="fa-brands fa-instagram-square social_media_icons"></i>
+            </a>
+          </p>
+          <!-- Scroll to top button mobile -->
+          <div class="col-xs-12 col-sm-12 text-center">
+            <button onclick="topFunction()" id="to_the_top_button_mobile"
+              class="btn mb-1 .d-none .d-md-block .d-lg-none">Back to top <i class="fa-solid fa-arrow-up"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <!-- Internal JS -->
+  <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

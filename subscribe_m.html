@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <title>Subscribe</title>
+  <title>Monthly Subscription</title>
   <!-- Bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -68,7 +68,7 @@
               <li><a class="dropdown-item" href="contact_us.html">Contact Us</a></li>
             </ul>
           </li>
-          <a class="nav-link ms-auto" href="subscribe.html">Subscribe</a>
+          <a class="nav-link ms-auto" href="subscribe_y.html">Subscribe</a>
         </div>
       </div>
     </div>
@@ -86,16 +86,18 @@
             <!-- Horizontal Line -->
             <hr class="">
             <h4 class=" text-decoration-underline">Choose Your Membership:</h4>
+            <!-- Yearly or monthly subscription selection -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="yearly_radio_button" id="yearly_radio_button" checked>
-              <label class="form-check-label " for="yearly_radio_button">
-                Yearly Membership: £41.50 plus VAT - (58% discount vs monthly membership)
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+              <label class="form-check-label" for="flexRadioDefault1">
+                Monthly Membership: £8.25 plus VAT per month
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="monthly_radio_button" id="monthly_radio_button">
-              <label class="form-check-label " for="monthly_radio_button">
-                Monthly Membership: £8.25 plus VAT
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                onclick="chooseYearlyPlan()">
+              <label class="form-check-label" for="flexRadioDefault2">
+                Choose yearly membership plan
               </label>
             </div>
 
@@ -133,13 +135,21 @@
                   </thead>
                   <tbody>
                     <tr class="">
-                      <th class="">1x ARCHI UK Yearly Subscription:</th>
-                      <td class="generic_red">£41.50</td>
-                      <td class="generic_red">£8.30</td>
-                      <td class="generic_red">£49.80</td>
+                      <th class="">1x ARCHI UK monthly subscription (<em class="small">Recurring billing</em>):</th>
+                      <td class="generic_red">£8.25</td>
+                      <td class="generic_red">£1.65</td>
+                      <td class="generic_red">£9.90</td>
                     </tr>
                   </tbody>
                 </table>
+                <p class="mb-0 generic_red"><strong>Important Notice:</strong> Please be aware that you may experience a
+                  short delay (up to 10 seconds) upon completion of the paypal checkout before you are directed to the
+                  archi member
+                  password setup page.
+                </p>
+                <p class="mb-0">Once you have completed paypal's checkout please wait until you are
+                  re-directed to the archi member password setup page to set your password.
+                </p>
               </div>
             </div>
             <!-- Horizontal Line -->
@@ -148,9 +158,10 @@
             <p class="mb-2 text-decoration-underline">Subscription Auto Renewal</p>
             <!-- Auto renewal message -->
             <p class="fst-italic mb-2">Subscriptions to MAGNET FISHING UK and ARCHI Worldwide databases are for one
-              year and will be renewed automatically. Most ARCHI subscribers prefer this than to find their subscription
-              has expired when they are out in the field and need to use the service. However, you can simply cancel any
-              future re-subscription payments via your PayPal acount anytime before the next subscription period.
+              month and will be renewed automatically. Most ARCHI subscribers prefer this than to find their
+              subscription has expired when they are out in the field and need to use the service. However, you can
+              simply cancel any future re-subscription payments via your PayPal acount anytime before the next
+              subscription period.
             </p>
             <p class="fst-italic mb-2">
               For instructions on how to cancel your subscription please see our F.A.Q page or click: <a href="faq.html"
