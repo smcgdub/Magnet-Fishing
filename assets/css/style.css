@@ -85,6 +85,13 @@ button.navbar-toggler {
   --animate-duration: 2s;
 }
 
+/* Media query to add bottom margin to buttons on small screens */
+@media screen and (max-width: 344px) {
+  #go_fishing_search_button {
+    margin-bottom: 4px;
+  }
+}
+
 /* About Us */
 #about_us_bg_image {
   background-image: url(/assets/images/about_us_bg_image.jpg);
