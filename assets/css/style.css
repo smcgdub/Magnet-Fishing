@@ -194,6 +194,9 @@ button.navbar-toggler {
   color: #595959;
 }
 
+#news_story_hr {
+  color: #cd2653;
+}
 /* Best Places For Magnet Fishing */
 #best_places_for_magnet_fishing_bg_image {
   background-image: url(/assets/images/best_places_for_magnet_fishing_bg_image.jpg);
@@ -576,4 +579,19 @@ thead {
 /* Customer Links Page */
 ol li a:hover {
   color: #cd2653 !important;
+}
+
+#news_story_bg_image {
+  background-image: url(/assets/images/news_story_bg_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.news_story_col {
+  max-height: calc(100vh - 100px) !important;
+  overflow-y: scroll !important;
+  background-color: rgba(0, 0, 0, 0.642);
+  /* backdrop-filter: blur(10px) !important; */
 }
