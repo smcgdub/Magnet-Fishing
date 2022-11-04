@@ -16,7 +16,8 @@ function callArchiSearch() {
   // let urlCoordinates = countryLat + '%2C' + countryLong;
 
   // search_location
-  let urlParameters = "&search_range=10000&pwd=" + pwd + "&SearchType=freesearch" + "&keywords=magnet-fishing-places";
+  let urlParameters = "&search_range=10000&pwd=" + pwd + "&SearchType=freesearch" + "&keywords=magnet";
+  // let urlParameters = "&search_range=10000&pwd=" + pwd + "&SearchType=freesearch" + "&keywords=magnet-fishing-places";
 
   // let urlCoordinates = 53.528680 + '%2C' + -2.123737;
 
