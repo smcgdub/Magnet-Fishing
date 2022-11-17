@@ -184,11 +184,16 @@
         <div class="col-md-5 offset-md-1">
           <h5 class="text-start">Subscribe to our newsletter</h5>
           <!-- Subscribe to newsletter form -->
-          <form id="magnet_newsletter_signup_form" class="form" method="post">
+          <form id="newsletter_signup" class="form" method="post">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label mb-0">Email address</label>
-              <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp"
-                required>
+              <!-- Email Address Label -->
+              <label for="newsletter_signup_email" class="form-label mb-0">Email address</label>
+              <!-- Email Address Input -->
+              <input type="email" class="form-control rounded-0" id="newsletter_signup_email"
+                aria-describedby="emailHelp" required>
+              <!-- Hidden value for tracking -->
+              <input type="text" name="datatype2subscribe2" value="magnet" hidden>
+              <!-- Never share your email message -->
               <div id="emailHelp" class="form-text text-start mt-0">We'll never share your email with anyone else.</div>
             </div>
             <!-- Submit button -->
