@@ -83,9 +83,10 @@
             <!-- Page header -->
             <h1 class="text-white text-center mb-3">- Contact Magnet Fishing Maps -</h1>
             <!-- Contact Us Form -->
-            <form action="https://formsubmit.co/steve@alien911.com" method="POST">
+            <form id="contact_us_form" class="form" method="post"
+              action="https://www.archiuk.com/cgi-bin/newslrt_signup.pl">
               <!-- New email notification internal use only-->
-              <input type="hidden" name="_subject" value="New email from Magnet Fishing">
+              <!-- <input type="hidden" name="_subject" value="New email from Magnet Fishing"> -->
               <!-- Name input -->
               <div class="mb-3">
                 <label for="contact_us_name" class="form-label text-white h5" spellcheck="true">- Your Name -</label>
@@ -161,12 +162,13 @@
         <div class="col-md-5 offset-md-1">
           <h5 class="text-start">Subscribe to our newsletter</h5>
           <!-- Subscribe to newsletter form -->
-          <form id="newsletter_signup" class="form" method="post">
+          <form id="newsletter_signup" class="form" method="post"
+            action="https://www.archiuk.com/cgi-bin/newslrt_signup.pl">
             <div class="mb-3">
               <!-- Email Address Label -->
               <label for="newsletter_signup_email" class="form-label mb-0">Email address</label>
               <!-- Email Address Input -->
-              <input type="email" class="form-control rounded-0" id="newsletter_signup_email"
+              <input type="email" name="e-addy" class="form-control rounded-0" id="newsletter_signup_email"
                 aria-describedby="emailHelp" required>
               <!-- Hidden value for tracking -->
               <input type="text" name="datatype2subscribe2" value="magnet" hidden>
